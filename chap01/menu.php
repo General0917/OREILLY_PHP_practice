@@ -18,6 +18,7 @@
     <?php
     // このコードは実行する前にMySQLに該当のDBとテーブル、テストデータを用意する必要がある。
     // DBについては、「menu.sql」ファイルがあるので、そのSQLファイルをMySQLをローカルに接続して、実行する。
+    // 以下の変数はDB接続先と、ユーザー名とパスワードを定義している。
     $dsn = 'mysql:dbname=Menu;host=localhost';
     $user = 'root';
     $password = '';
